@@ -1,0 +1,1414 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#chat{
+    background-color: rgb(130, 196, 7);
+    margin-top: -80px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    height: 30px;
+}
+#chat h4{
+    padding-top: 7px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+#hamnav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: 25px;
+    display: block;
+    height: 75px;
+    background-color: white;
+    border-bottom: 2px solid gray;
+    z-index: 80;
+}
+#logo{
+    width: 100%;
+    display: flex;
+}
+#logo #img{
+    width: 200px;
+    height: 80px;
+    margin-top: -5px;
+    position: absolute;
+}
+/* styling search bar */
+#search img{
+    width: 40px;
+    height: 40px;
+    margin-top: 35px;
+    position: absolute;
+    margin-left: 76vw;
+}
+
+
+#logo button:hover{
+    height: 35px;
+}
+
+#logo #icons{
+    top: 35px;
+    position: absolute;
+    left: 80vw;
+    /* background-color: red; */
+}
+
+
+#logo #icons #icon{
+    width: 40px;
+    padding-left: 5vw;
+    float: right;
+}
+
+/* dismissing the harmburger icon from desktop views */
+#hamnav label, #hamburger{
+    display: none;
+}
+
+/* styling the navigation links */
+#hamitems{
+    width: 60vw;
+    margin-top: 55px;
+    left: 14vw;
+    position: absolute;
+    /* background-color: red; */
+}
+#hamitems a{
+    padding: 10px 30px 1px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(27, 26, 26);
+    font-weight: bolder;
+    transition: .7s ease;
+    font-size: 11px;
+}
+#hamitems a:hover{
+    background: rgb(184, 240, 99);
+}
+
+
+/* starting the landing page body styling*/
+
+.container_Djoumessi{
+    width: 100%;
+    margin-top: 80px;
+    position: relative;
+    height: 380px;
+    overflow: hidden;
+    background-size: cover;
+    display: block;
+}
+.wrapper_Djoumessi{
+    width: fit-content;
+    animation: slide 16s infinite;
+    display: flex;
+}
+.wrapper_Djoumessi img{
+    width: 100%;
+    float: left;
+}
+@keyframes slide {
+    0%{transform: translateX(0);}
+    25%{transform: translateX(0);}
+    30%{transform: translateX(-100%);}
+    50%{transform: translateX(-100%);}
+    55%{transform: translateX(-200%);}
+    75%{transform: translateX(-200%);}
+    80%{transform: translateX(-300%);}
+    100%{transform: translateX(-300%);}
+}
+.BuyTextImagesScroll_Djoumessi{
+    position: absolute;
+    margin-top: -18vw;
+    /* text-align: center; */
+    color: white;
+    font-size: 3vw;
+}
+.BuyTextImagesScroll_Djoumessi h2{
+    text-align: center;
+    padding-left: 24vw;
+}
+.BuyBtnScroll_Djoumessi{
+    display: flex;
+    position: absolute;
+    margin-top: -20vw;
+    margin-left: 30vw;
+    margin-right: 30vw;
+}
+.BtnScroll_Djoumessi{
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    margin-left: 60px;
+    cursor: pointer;
+}
+#IBtn_Djoumessi{
+    background-color: rgb(241, 170, 63);
+    transition: 2s ease;
+}
+#IBtn_Djoumessi:hover{
+    background-color: rgb(189, 129, 38);
+    font-size: large;
+}
+#BBtn_Djoumessi{
+    background: greenyellow;
+    transition: 2s ease;
+}
+#BBtn_Djoumessi:hover{
+    background: rgb(124, 202, 7);
+    font-size: large;
+}
+
+
+/* landing pages articles styling */
+
+.TitleNewArts_Djoumessi{
+    margin: 60px;
+}
+.TitleNewArts_Djoumessi h2{
+    font-size: 30px;
+    opacity: 60%;
+}
+
+.actual_bike_container_Djoumessi{
+    display: flex;
+    flex-wrap: wrap;
+    width: 99.5%;
+    margin-left: 15px;
+}
+.actaul_img_Djoumessi{
+    margin: 10px;
+    /* background-color: greenyellow; */
+    display: block;
+    padding: 5px;
+    width: 22%;
+    border: 1px solid rgb(232, 229, 229);
+}
+.img_box{
+    height: 75%;
+    width: 100%;
+    margin-bottom: 20px;
+    transition: 0.5s ease-in;
+}
+.img_box:hover{
+    background-color: rgb(187, 182, 182);
+}
+.img_box img{
+    width: 100%;
+}
+.img_box img:hover{
+    opacity: 0.7;
+}
+.rdc_Djoumessi{
+    position: absolute;
+    background-color: orange;
+    margin-top: -410px;
+    margin-left: 240px;
+    text-align: center;
+    padding: 5px;
+    text-align: center;
+}
+.actaul_img_Djoumessi h5, h6{
+    opacity: 70%;
+    text-align: center;
+}
+
+
+
+
+.TousDjoumessi{
+    width:80px;
+    padding: 10px;
+    background-color: rgb(211, 117, 9);
+    margin-left: 45%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.TousArt_Djoumessi{
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 100%; */
+    margin-left: 60px;
+    margin-top: 60px;
+    /* background-color: red; */
+    /* height: 100px; */
+}
+.TArt_Djoumessi {
+    width: 21%;
+    height: 170px;
+    background-color: red;
+    margin-left: 18px;
+    overflow: hidden;
+}
+.TArt_Djoumessi img{
+    width: 100%;
+    height: 100%;
+    transition: .6s ease-in-out;
+}
+.TArt_Djoumessi img:hover{
+    margin-left: -3;
+    width: 105%;
+}
+.TextMore_Djoumessi{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 30px;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+.VideoDjoumessi{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+.VideoDjoumessi iframe{
+    width: 100%;
+    height: 400px;
+    
+}
+
+.Critique_Djoumessi{
+    margin-top: 20px;
+    position: absolute;
+    width: 60%;
+    margin-left: 200px;
+    text-align: center;
+    /* margin-top: 600px; */
+}
+.Critique_Djoumessi h2{
+    font-size: 40px;
+    opacity: 70%;
+}
+.Critique_Djoumessi p{
+    font-size: 20px;
+    opacity: 80%;
+}
+.colaborator_Djoumessi{
+    width: 100%;
+    margin-top: 250px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+.colaborator_Djoumessi h2{
+    margin-left: 50px;
+    font-size: 30px;
+    opacity: 60%;
+}
+.ColabLog_Djoumessi{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    position: relative;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+.imgCol6djoumessi{
+    margin: 10px;
+    background-color: red;
+    width: 170px;
+}
+.imgCol6djoumessi img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* styling for viewproduct page */
+
+.atcles_Container_Djoumessi{
+    display: flex;
+    width: 100%;
+    height: 43%;
+    position: inherit;
+    margin-top: 5%;
+    background-color: rgb(247, 242, 242);
+}
+.Leftartside_Djoumessi{
+    width: 47%;
+    /* background-color: greenyellow; */
+    float: left;
+    overflow: hidden;
+}
+.Leftartside_Djoumessi img{
+    width: 100%;
+    margin: 2px;
+}
+.Rigthartside_Djoumessi{
+    float: right;
+    width: 48%;
+    /* background-color: orange; */
+    margin-left: 4%;
+}
+.ArtName_Djoumessi{
+    width: 100%;
+    opacity: 70%;
+    border-bottom: 2px solid grey;
+    display: block;
+}
+.ArtName_Djoumessi h4{
+    padding-bottom: 20px;
+}
+.ctnCmd_Djoumessi{
+    display: flex;
+    width: 100%;
+    /* height: 100px; */
+}
+.ctnBtn_Djoumessi{
+    width: 45%;
+    margin: 4%;
+    border: 2px gray;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+.ctnBtn_Djoumessi a{
+    color: rgb(60, 58, 58);
+    font-size: larger;
+}
+#addCart_Djoumessi{
+    background-color: rgb(239, 198, 18);
+    transition: 2s ease;
+}
+#addCart_Djoumessi:hover{
+    background-color: rgb(186, 159, 7);
+}
+#buyart_Djoumessi{
+    background-color: rgb(28, 179, 28);
+    transition: .5s ease;
+}
+#buyart_Djoumessi:hover{
+    background-color: rgb(31, 132, 31);
+}
+
+.payTpeLog_Djoumessi{
+    margin-top: 40px;
+    width: 100%;
+    border-bottom: 2px solid gray;
+}
+.payTpeLog_Djoumessi img{
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 20px;
+}
+.livrableArts_Djoumessi li span{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background: greenyellow;
+    color: greenyellow;
+    /* box-shadow: 2px 2px 2px 2px grey; */
+}
+.livrableArts_Djoumessi ul li{
+    line-height: 40px;
+}
+
+.Artcaracteristics{
+    width: 100%;
+    margin-top: 0px;
+    background-color: rgb(247, 242, 242);
+}
+.Artcaracteristics h2{
+    padding-top: 20px;
+    text-align: center;
+}
+.Artcaracteristics table{
+    margin-left: 10%;
+    width: 80%;
+}
+#alert{
+    color: red;
+}
+.mostSaleTitle{
+    margin-top: 50px;
+    font-size: 20px;
+    opacity: 70%;
+    padding-left: 20px;
+}
+
+.B_btns{
+    margin-left: 65px;
+    position: absolute;
+    margin-top: -15%;
+    display: none;
+}
+.actaul_img_Djoumessi:hover > .B_btns{
+    display: flex;
+}
+#btn{
+    width: 50px;
+    padding: 5px;
+    margin-left: 20px;
+    text-align: center;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 1s;
+    position: relative;
+}
+#btn:hover{
+    border: 2px solid green;
+}
+.btnbuy{
+    background-color: rgb(97, 155, 11);
+}
+.btnadd{
+    background-color: rgb(250, 202, 28);
+}
+
+/* this is the fixed chat box */
+.chat_Djoumessi{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: blue;
+    position: fixed;
+    z-index: 100;
+    margin-top: -40%;
+    margin-left: 93%;
+    float: right;
+    /* padding: 5px; */
+}
+
+
+
+/* card styling */
+.wrapperBanner_Djoumessi{
+    width: 100%;
+    height: 100%;
+}
+.wrapperBanner_Djoumessi img{
+    width: 100%;
+    height: 100%;
+}
+.displayerCard_Djpoumessi{
+    display: flex;
+    margin-top: 3%;
+    overflow: hidden;
+}
+.cardTitle_Djoumessi{
+    text-align: center;
+    margin-top: 50px; 
+    opacity: 80%;
+}
+.cartArts_Djoumessi{
+    display: flex;
+    width: 50%;
+    margin-left: 2%;
+    /* background: red; */
+}
+.cardImg_djoumessi{
+    height: 150px;
+    width: 150px;
+}
+.cardImg_djoumessi img{
+    width: 100%;
+}
+.cardArtdesc{
+    width: 70%;
+    margin-left: 5%;
+}
+.cardArtdesc h2{
+    font-size: 17px;
+    opacity: 70%;
+}
+.cartQuantity h4{
+    margin-top: 70px;
+}
+.Totalcard_Djoumessi{
+    width: 30%;
+    margin-left: 16%;
+    background-color: #e4decb;
+    height: 150px;
+    float: right;
+}
+#val{
+    margin-left: 250px;
+}
+.procedePaymt_Djoumessi{
+    background-color: #925909;
+    padding: 10px;
+    width: 90%;
+    text-align: center;
+    margin-left: 2.5%;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.procedePaymt_Djoumessi a{
+    font-weight: bolder;
+    color: white;
+    opacity: 80%;
+}
+.promCodeMsg_Djoumessi{
+    margin-top: 15px;
+    text-align: center;
+    padding: 5px;
+}
+.PayCardlog_Djoumessi {
+    width: 100%;
+    height: 15px;
+    margin-top: 15px;
+}
+.PayCardlog_Djoumessi img{
+    width: 80%;
+    margin-left: 10%;
+    background-color: rgb(67, 225, 27);
+}
+
+
+
+/* Payement form styling  */
+.payFormContainer_Djoumessi{
+    display: flex;
+    width: 100%;
+}
+.RightForm_Djoumessi{
+    width: 60%;
+    border: 2px solid gray;
+    margin: 5px;
+    /* height: 600px; */
+}
+.LogImg_Djoumessi{
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+    border-bottom: 2px solid gray;
+}
+.LogImg_Djoumessi #logP{
+    width: 250px;
+    height: 100px;
+    /* margin-left: 25%; */
+}
+.LogImg_Djoumessi h6{
+    font-size: 13px;
+    margin-top: -2px;
+}
+.LogImg_Djoumessi h5{
+    font-size: 14px;
+    opacity: 70%;
+}
+.paypal_Djoumessi{
+    width: 50%;
+    border-radius: 5px;
+    background-color: orange;
+    margin-left: 25%;
+    border-bottom: 2px solid black;
+    margin-bottom: 40px;
+}
+.LogImg_Djoumessi #paypal{
+    width: fit-content;
+    padding: 5px;
+}
+.LogImg_Djoumessi h3{
+    position: absolute;
+    background-color: whitesmoke;
+    padding: 5px;
+    margin-top: -13px;
+    margin-left: 25.3%;
+}
+.meansPayment_Djoumessi{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.meansPayment_Djoumessi img{
+    width: 50px;
+    margin: 15px;
+}
+.RightForm_Djoumessi form{
+    width: 80%;
+    margin: 10%;
+    margin-top: -2%;
+    /* background-color: #fff; */
+}
+form{
+    border-bottom: 2px solid gray;
+}
+.formDivL{
+    display: block;
+    margin-top: 12px;
+}
+.formDivL #LPForm{
+    width: 100%;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: brown;
+    font-size: 15px;
+}
+.formDivL #check{
+    margin-top: 12px;
+}
+.formDivL label{
+    font-size: 13px;
+}
+.formDivS{
+    width: 100%;
+    margin-top: 12px;
+}
+.formDivS input{
+    width: 49.6%;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: brown;
+    font-size: 15px;
+}
+.formDivS a{
+    text-decoration: none;
+}
+.formDivS a:hover{
+    text-decoration: underline;
+}
+.formDivS #submit{
+    margin-left: 47%;
+    width: 35%;
+    height: 50px;
+    background-color: greenyellow;
+    transition: 1s ease;
+}
+.formDivS #submit:hover{
+    background-color: rgb(67, 225, 27);
+    box-shadow: 1px 2px 1px 2px rgb(222, 219, 219);
+}
+#end{
+    margin-bottom: 40px;
+}
+
+/* livraison styling */
+.formDivL table{
+    width: 90%;
+}
+.LeftForm_Djoumessi table{
+    margin-top: 14%;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.LeftForm_Djoumessi img{
+    width: 50px;
+    border-radius: 5px;
+}
+
+
+/* footer styling */
+
+footer {
+    display: flex;
+}
+
+
+
+
+/* contact forms styling */
+
+
+.container_c{
+    margin: 10%;
+    width: 90%;
+}
+.contact{
+    display: flex;
+}
+.container_c table{
+    width: 40%;
+}
+.contact_form{
+    width: 20%;
+    margin-left: 10%;
+    border-bottom: none;
+}
+.form{
+    width: 100%;
+}
+.form input{
+    width: 100%;
+    height: 30px;
+}
+.form button{
+    margin-left: 40%;
+    background: green;
+    border: none;
+    padding: 4px;
+}
+.about{
+    width: 80%;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+/* finish message styling */
+
+.thanks_container{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 7%;
+    /* top: 10%; */
+    /* text-align: center; */
+    background-color: white;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 4px gray;
+    padding: 5px;
+}
+.thanks{
+    width: 100%;
+    text-align: center;
+}
+.info_cmde{
+    width: 100%;
+    padding: 20px;
+}
+.info_cmde table{
+    width: 70%;
+    margin-left: 15%;
+}
+.inf{
+    font-weight: bolder;
+}
+.back{
+    padding: 6px;
+    background-color: green;
+    text-align: center;
+    width: 40px;
+    margin-left: 50%;
+    margin-top: 3%;
+    border-radius: 5px;
+    box-shadow: 1px 2px 1px 1px yellow;
+}
+.back a{
+    color: white;
+    transition: 1s ease;
+}
+.back a:hover{
+    font-size: larger;
+}
+.ad_su{
+    color: darkblue;
+    text-decoration: underline;
+    margin: 10px;
+}
+.thanks_container{
+    margin-top: 10%;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+/* payement form styling */
+
+.payFormContainer_Djoumessi{
+    display: flex;
+    width: 100%;
+}
+.RightForm_Djoumessi{
+    width: 60%;
+    border: 2px solid gray;
+    margin: 5px;
+    /* height: 600px; */
+}
+.LogImg_Djoumessi{
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+    border-bottom: 2px solid gray;
+}
+.LogImg_Djoumessi #logP{
+    width: 250px;
+    height: 100px;
+    /* margin-left: 25%; */
+}
+.LogImg_Djoumessi h6{
+    font-size: 13px;
+    margin-top: -2px;
+}
+.LogImg_Djoumessi h5{
+    font-size: 14px;
+    opacity: 70%;
+}
+.paypal_Djoumessi{
+    width: 50%;
+    border-radius: 5px;
+    background-color: orange;
+    margin-left: 25%;
+    border-bottom: 2px solid black;
+    margin-bottom: 40px;
+
+}
+.LogImg_Djoumessi #paypal{
+    width: fit-content;
+    padding: 5px;
+}
+.LogImg_Djoumessi h3{
+    position: absolute;
+    background-color: whitesmoke;
+    padding: 5px;
+    margin-top: -13px;
+    margin-left: 25.3%;
+}
+.meansPayment_Djoumessi{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.meansPayment_Djoumessi img{
+    width: 50px;
+    margin: 15px;
+}
+.RightForm_Djoumessi form{
+    width: 80%;
+    margin: 10%;
+    margin-top: -2%;
+    /* background-color: #fff; */
+}
+form{
+    border-bottom: 2px solid gray;
+}
+.formDivL{
+    display: block;
+    margin-top: 12px;
+}
+.formDivL #LPForm{
+    width: 100%;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: brown;
+    font-size: 15px;
+}
+.formDivL #check{
+    margin-top: 12px;
+}
+.formDivL label{
+    font-size: 13px;
+}
+.formDivS{
+    width: 100%;
+    margin-top: 12px;
+}
+.formDivS input{
+    width: 49.6%;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: brown;
+    font-size: 15px;
+}
+.formDivS a{
+    text-decoration: none;
+}
+.formDivS a:hover{
+    text-decoration: underline;
+}
+.formDivS #submit{
+    margin-left: 47%;
+    width: 35%;
+    height: 50px;
+    background-color: greenyellow;
+    transition: 1s ease;
+}
+.formDivS #submit:hover{
+    background-color: rgb(67, 225, 27);
+    box-shadow: 1px 2px 1px 2px rgb(222, 219, 219);
+}
+#end{
+    margin-bottom: 40px;
+}
+
+/* livraison */
+.formDivL table{
+    width: 90%;
+}
+.LeftForm_Djoumessi table{
+    margin-top: 14%;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.LeftForm_Djoumessi img{
+    width: 50px;
+    border-radius: 5px;
+}
+
+.FinalPay_Djoumessi{
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.FinalPay_Djoumessi input{
+    width: 85%;
+    height: 40px;
+}
+.FinalPay_Djoumessi button{
+    height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* styling css for tablets */
+@media only screen and (min-width:768px) and (max-width:1000px){
+    #search{
+        display: flex;
+    }
+    #search input{
+        margin-left: 10px;
+        width: 30vw;
+    }
+   #hamnav #icons{
+    margin-left: 3vw;
+    display: flex;
+   }
+   #icons #icon{
+    margin-left: -15px;
+   }
+   #hamitems{
+    margin-left: 0;
+   }
+   #hamitems a{
+    font-size: 11px;
+   }
+   .atcles_Container_Djoumessi{
+    margin-top: 80px;
+   }
+   .ArtName_Djoumessi h2{
+        font-size: 18px;
+    }
+    .ArtName_Djoumessi h4{
+        padding-bottom: 0px;
+    }
+    .payTpeLog_Djoumessi{
+        margin-top: 3px;
+    }
+    .livrableArts_Djoumessi ul li{
+        line-height: 30px;
+    }
+
+}
+
+/* styling css for phone */
+@media only screen and (min-width:200px) and (max-width:768px){
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+    /* removing div chat */
+    #chat{
+        display: none;
+    }
+
+    /* tablets layout styling */
+    #hamnav{
+        display: inline-block;
+        position: fixed;
+        margin-top: 0px;
+        background-color: white;
+        border-bottom: 2px solid gray;
+        /* right: 50px; */
+        /* margin-right: -10px; */
+    }
+    #logo #img{
+        /* margin-top: -15px; */
+        /* position: relative; */
+        /* margin-top: -35px; */
+        width: 30vw;
+        margin-left: 28vw;
+        /* background-color: red; */
+    }
+    #search img{
+        margin-left: 93vw;
+        margin-top: 20px;
+    }
+    #hamitems a{
+        display: block;
+        width: 90%;
+        font-size: 12px;
+        margin: 0;
+        margin-right: 300px;
+        /* border-top: 1px solid rgb(148, 216, 40); */
+    }
+    
+    #hamitems a:hover{
+    background-color: #d8ddea;
+    margin-left: 3px;
+    }
+    #hamnav label{
+    margin-top: 12px;
+    margin-left: 5px;
+    margin-bottom: 4px;
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+    
+    }
+   #hamitems{
+    display: none;
+    width: 100%;
+    top: -52px;
+    left: 0vw;
+    position: relative;
+    background-color: white;
+    margin-left: 0%;
+   }
+    #hamnav input:checked ~ #hamitems{
+        display: block;
+    }
+
+
+/* styling the logos parts */
+    #logo{
+        display: block;
+    }
+    #logo #img{
+        margin-top: 0;
+    }
+    #logo #search{
+        display: flex;
+        /* background-color: red; */
+        /* margin-left: 230px; */
+        width: 25px;
+        height: 25px;
+        overflow: hidden;
+    }
+
+    #logo input{
+        margin-left: 70px;
+        margin-bottom: 10px;
+        width: 79vw;
+    }
+    #logo #icons{
+        display: flex;
+        position: absolute;
+        margin-left: 65vw;
+        top: 30px;
+        left: -2vw;
+    }
+    #logo #icons img{
+        width: 20px;
+        height: 30px;
+    }
+
+
+
+    .container_Djoumessi{
+        height: 300px;
+        width: 100vw;
+        margin-left: -7px;
+        box-shadow: none;
+    }
+    .wrapper_Djoumessi img{
+        height: 300px;
+    }
+    .BuyBtnScroll_Djoumessi{
+        margin-top: -25vw;
+        margin-left: 4vw;
+        /* margin-right: 30vw; */
+    }
+
+
+
+    .TitleNewArts_Djoumessi{
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    .TitleNewArts_Djoumessi h2{
+        font-size: 25px;
+    }
+    .actual_bike_container_Djoumessi{
+        width: 98%;
+        text-align: center;
+    }
+    .actaul_img_Djoumessi{
+        background-color: white;
+        width: 43%;
+        margin: 5px;
+        margin-left: 10px;
+    }
+    .rdc_Djoumessi{
+        margin-top: -350px;
+        margin-left: 150px;
+    }
+    .TousDjoumessi{
+        margin-top: 5px;
+        margin-left: 110px;
+        background-color: gray;
+        width: 300px;
+    }
+    .TArt_Djoumessi {
+        width: 45%;
+        margin: 5px;
+        margin-left: 10px;
+    }
+    .TousArt_Djoumessi{
+        margin-left: 0px;
+        margin-top: 4px;
+    }
+
+    .VideoDjoumessi{
+        margin-left: 0px;
+    }
+    .VideoDjoumessi iframe{
+        width: 100%;
+        height: 200px;
+    }
+    .Critique_Djoumessi{
+        width: 95%;
+        margin-left: 3px;
+    }
+    .ColabLog_Djoumessi{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .colaborator_Djoumessi h2{
+        font-size: 20px;
+        margin-left: 5px;
+    }
+    .imgCol6djoumessi{
+        /* margin: 10px; */
+        width: 12%;
+        background-color: red;
+    }
+    .imgCol6djoumessi img{
+        width: 100%;
+    }
+
+    
+    /* Viewarticle page styling for phones */
+    .atcles_Container_Djoumessi{
+        display: block;
+       }
+    .Leftartside_Djoumessi{
+        width: 100%;
+        float: none;
+    }
+    .Leftartside_Djoumessi img{
+        width: 80%;
+        padding-top: 5%;
+        margin: 10%;
+        margin-right: 15px;
+    }
+    .Rigthartside_Djoumessi{
+        margin: 5px;
+        width: 100%;
+        float: none;
+    }
+    .ArtName_Djoumessi h2{
+        font-size: 15px;
+    }
+    .ArtName_Djoumessi h4{
+        margin-bottom: 0px;
+    }
+    .payTpeLog_Djoumessi img{
+        width: 100%;
+        margin-left: 0%;
+        margin-top: -28px;
+    }
+    .livrableArts_Djoumessi ul li{
+        line-height: 30px;
+    }
+    .Artcaracteristics{
+        margin-top: 2px;
+    }
+
+
+    /* styling card */
+
+    .displayerCard_Djpoumessi{
+        display: block;
+        overflow: hidden;
+        margin: 5px;
+    }
+    .cartArts_Djoumessi{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .Totalcard_Djoumessi{
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0%;
+    }
+    .PayCardlog_Djoumessi img{
+        margin-top: 14px;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+
+    /* hover for product */
+    .B_btns{
+        margin-left: 10px;
+        margin-top: -120px;
+    }
+    .actaul_img_Djoumessi h5{
+        display: none;
+    }
+    .actaul_img_Djoumessi h6{
+        font-size: larger;
+        opacity: 100%;
+        margin-top: 10;
+        margin-bottom: 20px;
+    }
+
+
+    /* styling phone view for payement forms */
+    
+    .payFormContainer_Djoumessi{
+        margin: 4px;
+        width: 90%;
+        display: block;
+        padding: 20px;
+    }
+    .RightForm_Djoumessi{
+        width: 100%;
+    }
+    .LeftForm_Djoumessi{
+        margin: 0;
+    }
+    .LeftForm_Djoumessi table{
+        margin-left: 0;
+    }
+    .formDivS input{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .formDivS #submit{
+        width: 50%;
+    }
+
+
+
+    /* finish mesage styling for phone view */
+    .thanks_container{
+
+        width: 90%;
+        margin:3%;
+        margin-top: 25%;
+    }
+    .info_cmde table{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    /* styling the contact form for phone views */
+    .contact{
+        display: block;
+    }
+    .contact_form{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    
+.container_c{
+    margin: 5%;
+    margin-top: 10%;
+}
+.contact{
+    display: block;
+    margin-bottom: 20px;
+}
+.container_c table{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.contact h3{
+    padding-bottom: 10px;
+}
+.contact_form{
+    width: 100%;
+    margin-left: 0;
+    border-bottom: none;
+}
+.form{
+    width: 100%;
+}
+.form input{
+    width: 100%;
+    height: 30px;
+}
+.form textarea{
+    width: 100%;
+    height: 100px;
+}
+.form button{
+    margin-left: 40%;
+    width: 80px;
+    margin-bottom: 5px;
+}
+.about{
+    width: 100%;
+    text-align: justify;
+}
+.about img{
+    width: 100%;
+}
+
+    
+
+
+
+}
+
+
